@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bootstrap Dashboard</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+
+<body class="bg-light">
+
+
+    <!-- ================= DASHBOARD HEADER ================= -->
+
+    <div class="container my-4">
+
+        <div class="bg-primary text-white p-4 rounded-3 shadow-sm">
+
+            <h1 class="fw-bold mb-1">
+                Dashboard
+            </h1>
+
+            <p class="mb-0">
+                Bootstrap Components
+            </p>
+
+        </div>
+
+
+        <!-- ================= ACCORDION ================= -->
+
+        <div class="accordion mt-4" id="dashboardAccordion">
+
+
+            <!-- ================================================= -->
+            <!-- 1. CARDS -->
+            <!-- ================================================= -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#cards">
+
+                        Cards
+
+                    </button>
+
+                </h2>
+
+
+                <div id="cards" class="accordion-collapse collapse" data-bs-parent="#dashboardAccordion">
+
+                    <div class="accordion-body">
+
+                        <div class="row g-3">
+
+
+                            <!-- Card 1 -->
+
+                            <div class="col-md-6">
+
+                                <div class="card">
+
+                                    <div class="card-header">
+                                        Bootstrap
+                                    </div>
+
+
+                                    <div class="card-body">
+
+                                        <h5 class="card-title">
+                                            Bootstrap Components
+                                        </h5>
+
+
+                                        <p class="card-text">
+
+                                            Bootstrap provides ready-to-use
+                                            components such as buttons,
+                                            cards, alerts, tables and
+                                            progress bars for creating
+                                            responsive websites.
+
+                                        </p>
+
+
+                                        <a href="#" class="btn btn-primary">
+
+                                            Learn More
+
+                                        </a>
+
+                                    </div>
+
+
+                                    <div class="card-footer text-body-secondary">
+
+                                        Front-End Development
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <!-- Card 2 -->
+
+                            <div class="col-md-6">
+
+                                <div class="card">
+
+                                    <div class="card-header">
+                                        Responsive Design
+                                    </div>
+
+
+                                    <div class="card-body">
+
+                                        <h5 class="card-title">
+                                            Build Responsive Websites
+                                        </h5>
+
+
+                                        <p class="card-text">
+
+                                            Bootstrap helps websites
+                                            adapt to different screen
+                                            sizes using its responsive
+                                            grid system and utilities.
+
+                                        </p>
+
+
+                                        <a href="#" class="btn btn-success">
+
+                                            Explore
+
+                                        </a>
+
+                                    </div>
+
+
+                                    <div class="card-footer text-body-secondary">
+
+                                        Web Technology
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================================================= -->
+            <!-- 2. BUTTONS -->
+            <!-- ================================================= -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#buttons">
+
+                        Buttons
+
+                    </button>
+
+                </h2>
+
+
+                <div id="buttons" class="accordion-collapse collapse" data-bs-parent="#dashboardAccordion">
+
+                    <div class="accordion-body">
+
+                        <div class="d-flex flex-wrap gap-2">
+
+
+                            <button class="btn btn-primary">
+                                Primary
+                            </button>
+
+
+                            <button class="btn btn-secondary">
+                                Secondary
+                            </button>
+
+
+                            <button class="btn btn-success">
+                                Success
+                            </button>
+
+
+                            <button class="btn btn-danger">
+                                Danger
+                            </button>
+
+
+                            <button class="btn btn-warning">
+                                Warning
+                            </button>
+
+
+                            <button class="btn btn-info">
+                                Info
+                            </button>
+
+
+                            <button class="btn btn-dark">
+                                Dark
+                            </button>
+
+
+                            <button class="btn btn-outline-primary">
+                                Outline
+                            </button>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================================================= -->
+            <!-- 3. ALERTS -->
+            <!-- ================================================= -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#alerts">
+
+                        Alerts
+
+                    </button>
+
+                </h2>
+
+
+                <div id="alerts" class="accordion-collapse collapse" data-bs-parent="#dashboardAccordion">
+
+                    <div class="accordion-body">
+
+
+                        <div class="alert alert-primary">
+                            This is a primary alert.
+                        </div>
+
+
+                        <div class="alert alert-success">
+                            This is a success alert.
+                        </div>
+
+
+                        <div class="alert alert-warning">
+                            This is a warning alert.
+                        </div>
+
+
+                        <div class="alert alert-danger mb-0">
+                            This is a danger alert.
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- 4. TABLE -->
+
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#table">
+
+                        Table
+
+                    </button>
+
+                </h2>
+
+
+                <div id="table" class="accordion-collapse collapse" data-bs-parent="#dashboardAccordion">
+
+                    <div class="accordion-body">
+
+
+                        <div class="table-responsive">
+
+                            <table class="table">
+
+
+                                <thead>
+
+                                    <tr>
+
+                                        <th scope="col">#</th>
+
+                                        <th scope="col">First</th>
+
+                                        <th scope="col">Last</th>
+
+                                        <th scope="col">Handle</th>
+
+                                    </tr>
+
+                                </thead>
+
+
+                                <tbody>
+
+
+                                    <tr>
+
+                                        <th scope="row">
+                                            1
+                                        </th>
+
+                                        <td>
+                                            Mark
+                                        </td>
+
+                                        <td>
+                                            Otto
+                                        </td>
+
+                                        <td>
+                                            @mdo
+                                        </td>
+
+                                    </tr>
+
+
+                                    <tr>
+
+                                        <th scope="row">
+                                            2
+                                        </th>
+
+                                        <td>
+                                            Jacob
+                                        </td>
+
+                                        <td>
+                                            Thornton
+                                        </td>
+
+                                        <td>
+                                            @fat
+                                        </td>
+
+                                    </tr>
+
+
+                                    <tr>
+
+                                        <th scope="row">
+                                            3
+                                        </th>
+
+                                        <td>
+                                            John
+                                        </td>
+
+                                        <td>
+                                            Doe
+                                        </td>
+
+                                        <td>
+                                            @social
+                                        </td>
+
+                                    </tr>
+
+
+                                </tbody>
+
+
+                            </table>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- 5. PARAGRAPH -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#paragraph">
+
+                        Paragraph
+
+                    </button>
+
+                </h2>
+
+
+                <div id="paragraph" class="accordion-collapse collapse" data-bs-parent="#dashboardAccordion">
+
+                    <div class="accordion-body">
+
+
+                        <h4>
+                            <strong>Bootstrap</strong>
+                        </h4>
+
+
+                        <p class="mb-0">
+
+                            Bootstrap is a popular front-end framework
+                            used to create responsive and attractive
+                            websites quickly using ready-made components.
+
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- 6. PROGRESS BARS -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#progress">
+
+                        Progress Bars
+
+                    </button>
+
+                </h2>
+
+
+                <!-- Initially CLOSED -->
+
+                <div id="progress" class="accordion-collapse collapse" data-bs-parent="#dashboardAccordion">
+
+                    <div class="accordion-body">
+
+
+                        <!-- Basic Progress -->
+
+                        <p class="mb-2">
+                            Basic Progress
+                        </p>
+
+                        <div class="progress mb-4">
+
+                            <div class="progress-bar" style="width: 80%;">
+
+                                80%
+
+                            </div>
+
+                        </div>
+
+                        <!-- Success Progress -->
+
+                        <p class="mb-2">
+                            Success Progress
+                        </p>
+
+                        <div class="progress mb-4">
+
+                            <div class="progress-bar bg-success" style="width: 70%;">
+
+                                70%
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- Striped Progress -->
+
+                        <p class="mb-2">
+                            Striped Progress
+                        </p>
+
+                        <div class="progress mb-4">
+
+                            <div class="progress-bar bg-info progress-bar-striped" style="width: 60%;">
+
+                                60%
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- Animated Progress -->
+
+                        <p class="mb-2">
+                            Animated Progress
+                        </p>
+
+                        <div class="progress mb-4">
+
+                            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+                                style="width: 75%;">
+
+                                75%
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- Danger Animated Progress -->
+
+                        <p class="mb-2">
+                            Danger Progress
+                        </p>
+
+                        <div class="progress mb-4">
+
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width: 45%;">
+
+                                45%
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- Stacked Progress -->
+
+                        <p class="mb-2">
+                            Stacked Progress
+                        </p>
+
+                        <div class="progress">
+
+                            <div class="progress-bar" style="width: 30%;">
+
+                                30%
+
+                            </div>
+
+
+                            <div class="progress-bar bg-success" style="width: 25%;">
+
+                                25%
+
+                            </div>
+
+
+                            <div class="progress-bar bg-warning" style="width: 20%;">
+
+                                20%
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+</html>
